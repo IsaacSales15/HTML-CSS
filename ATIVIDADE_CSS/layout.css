@@ -1,0 +1,44 @@
+body, header, main, nav, footer {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif; 
+}
+
+header {
+    position: sticky;
+    background-color: blue;
+    width: 100%;
+    height: 20%;
+}
+.texto{
+    text-align: center;
+    background-color: rgb(230, 106, 4);
+    height: 25%;
+    width: 30%;
+}
+
+main {
+    float: none;
+    background-color: red;
+    width: 80%;
+    height: 90vh;
+    display: inline-block;
+    vertical-align: top;
+}
+
+nav {
+    float: left;
+    background-color: pink;
+    width: 20%;
+    height: 90vh;
+}
+
+footer {
+    background-color: aqua;
+    height: 10%;
+    width: 100%;
+}
