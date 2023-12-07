@@ -1,0 +1,72 @@
+#p1 {
+    border-top: 5px solid red; 
+    border-left: 5px solid red; 
+    background-color: #f1f1f1; 
+    padding: 15px; 
+}
+
+#p2 {
+    border-bottom: 5px solid yellow; 
+    border-right: 5px solid yellow; 
+    background-color: #f1f1f1; 
+    padding: 15px; 
+}
+
+#p3 {
+    border: 5px solid cyan; 
+    border: 5px solid cyan; 
+    background-color: #f1f1f1; 
+    padding: 15px; 
+}
+
+.imagens {
+    position: relative;
+}
+
+#img1 {
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20vw;
+}
+
+#img2 { 
+    z-index: 4;
+    position: absolute;
+    top: 15px;
+    left: 350px;
+    width: 20vw;
+}
+
+#img3 { 
+    z-index: 2;
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    width: 15vw;
+}
+
+#img4 { 
+    z-index: 6;
+    position: absolute;
+    top: 170px;
+    left: 170px;
+    width: 20vw;
+}
+
+#img5 { 
+    z-index: 3;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    width: 20vw;
+}
+
+#img6 { 
+    z-index: 1;
+    position: absolute;
+    top: 500px;
+    left: 200px;
+    width: 25vw;
+}
